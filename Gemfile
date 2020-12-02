@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.2'
+gem 'jquery-rails'
+gem 'coffee-rails'
 gem 'haml'
 gem 'simple_form'
 gem 'bootstrap-sass'
